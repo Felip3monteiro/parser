@@ -31,3 +31,5 @@ json_file = 'data.json'
 with open(json_file, 'w', encoding='utf-8') as escrever:
     json.dump(json_dict, escrever, ensure_ascii=False, indent=4)
     print(f'O arquivo {json_file} foi criado')
+
+print('Aqui e um easter egg q fiz no celular')
